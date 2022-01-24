@@ -1,0 +1,29 @@
+
+
+<div class="container">
+  <br>
+  <br>
+  
+  <div>
+    <a href="https://www.gepf.gov.za/" target="_blank"> <img src="https://gepfimages.blob.core.windows.net/public/GEPF_Logo_TM.png" alt="" style="display: block;" width="350px" /></a>
+  </div>
+  
+  <div>
+    <br>
+    <br>
+    <p style="text-align: center;">Please click on the button below to download your medical AID subsidy letter.</p>
+    <a href="#" class="download_button" style="margin: auto;" (click)=downloadLetter()>
+      <div class="downloadicon">
+         <div class="cloud"><div class="arrowdown"></div></div>
+      </div>
+      <div class="filename"><span class="value">.pdf</span></div>
+    </a>
+
+    <br>
+
+    <div *ngIf="success" style="text-align: center;">
+      Thank you for downloading your letter. GoodBye.
+   </div>
+
+  </div>
+</div>
